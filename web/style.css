@@ -80,6 +80,19 @@ button:hover {
   background: #e68900;
 }
 
+.profile-pic {
+  margin-top: 15px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;       /* biar nggak inline */
+  margin: 0 auto 12px;  /* tengah + jarak bawah */
+}
+
 /* Animasi glow dan fade */
 @keyframes glow {
   from { text-shadow: 0 0 10px #ffeb3b; }
