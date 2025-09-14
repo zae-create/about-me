@@ -38,18 +38,29 @@ body {
   margin-bottom: 10px;
 }
 
-.card div {
+.card .intro {
   margin-bottom: 15px;
   font-size: 1rem;
   color: #555;
 }
 
-.card img {
+/* Foto + Instagram */
+.profile-pic {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.profile-img {
   width: 150px;
-  height: 200px;
-  border-radius: 15px;
+  height: 180px;
+  border-radius: 12px;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto 12px; /* Tengah + jarak bawah */
+}
+
+.insta-link {
+  margin-top: 12px;
 }
 
 /* Judul About Me */
@@ -80,19 +91,6 @@ button:hover {
   background: #e68900;
 }
 
-.profile-pic {
-  margin-top: 15px;
-}
-
-.profile-img {
-  width: 150px;
-  height: 180px;
-  border-radius: 12px;
-  object-fit: cover;
-  display: block;       /* biar nggak inline */
-  margin: 0 auto 12px;  /* tengah + jarak bawah */
-}
-
 /* Animasi glow dan fade */
 @keyframes glow {
   from { text-shadow: 0 0 10px #ffeb3b; }
@@ -120,9 +118,10 @@ button:hover {
   }
 }
 
+/* Tombol Instagram */
 .btn {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 10px;
   padding: 12px 25px;
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
   color: white;
